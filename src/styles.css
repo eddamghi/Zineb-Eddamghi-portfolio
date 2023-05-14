@@ -123,3 +123,13 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+
+.custom-carousel .carousel .slide {
+  height: 700px; /* Adjust the height value as per your requirement */
+}
+
+.custom-carousel .carousel .slide img {
+  height: 700px; /* Adjust the height value as per your requirement */
+  object-fit: cover;
+}

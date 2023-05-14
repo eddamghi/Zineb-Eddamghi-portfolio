@@ -32,26 +32,26 @@ const cardList = [
   {
     title: "Git Hub profile",
     description:"",
-    image: require("../images/Frame.png"),
+    image: require("../images/github.png"),
     url: "https://github.com/eddamghi",
   },
   {
-    title: "My Blog",
+    title: "DIGIGIRLZ Mentor",
     description: "",
-    image: require("../images/Frame.png"),
+    image: require("../images/test.png"),
     url: "https://eddamghizineb.blogspot.com/2023/05/my-experience-as-mentor-at-digigirlz.html",
   },
   {
-    title: "GDSC Core team member",
+    title: "COY17 Delegate",
     description: "",
     image: require("../images/Frame4.png"),
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://eddamghizineb.blogspot.com/2023/05/being-moroccan-voice-for-climate.html",
   },
   {
     title: "Microsoft Student Embassador",
     description: "",
      image: require("../images/Frame.png"),
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    url: "https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/aa8d6e8d-9335-46a4-a46d-f49a9b8e3170",
   },
 ];
 
@@ -71,9 +71,9 @@ const Portfolio = () => {
           {cardList.map((card) => (
             <div className="box" key={card.title}>
               <img 
-                src={card.image.default}
+                src={card.image}
                 alt="image"
-                style={{ height: "60px", width: "100%" }}
+                style={{ height: "85%", width: "100%" }}
               />
               <a href={card.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "35px" }}>{card.title}</h3>
